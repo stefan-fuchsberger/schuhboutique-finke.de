@@ -1,0 +1,6 @@
+<?php
+function sf_first_theme_suggestions_block_alter(&$suggestions, $variables) {
+  foreach ($suggestions as &$suggestion) {
+    $suggestion = str_replace('sf_first_', 'zircon_', $suggestion);
+  }
+}
