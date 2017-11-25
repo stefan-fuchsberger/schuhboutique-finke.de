@@ -3,3 +3,5 @@ type: theme
 base theme: zircon
 description: 'First sf_project Drupal theme ever'
 core: 8.x
+libraries:
+  - sf_first/global-styling
