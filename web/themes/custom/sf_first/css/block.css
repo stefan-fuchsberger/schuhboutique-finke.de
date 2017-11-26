@@ -1,0 +1,38 @@
+.site-logo img {
+  width: 260px;
+}
+
+#header .search-block-form {
+  float: left;
+  background: #e3e3e3;
+  display: block;
+  height: 37px;
+  padding: 5px 5px 5px 5px;
+  width: 344px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+#header .search-block-form .form-item .form-search {
+  width: 300px;
+  padding: 2px 3px 3px 5px;
+  border: none;
+  font-style: italic;
+  background-color: #d5d5d5;
+  color: #fff;
+}
+
+#header .search-block-form:before {
+  content: none !important;
+}
+
+#header .search-block-form .button {
+  padding: 0px;
+  text-indent: unset;
+  z-index: 1;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  left: -4px;
+}

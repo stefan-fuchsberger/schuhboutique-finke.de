@@ -4,3 +4,8 @@ function sf_first_theme_suggestions_block_alter(&$suggestions, $variables) {
     $suggestion = str_replace('sf_first_', 'zircon_', $suggestion);
   }
 }
+
+function sf_first_form_search_block_form_alter(&$form, &$form_state) {
+  $form['actions']['submit']['#value'] = html_entity_decode('&#xf002;');
+  $form['actions']['submit']['#attributes']['class'][] = 'search-button';
+}

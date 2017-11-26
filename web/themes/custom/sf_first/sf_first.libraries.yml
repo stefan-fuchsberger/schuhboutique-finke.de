@@ -1,4 +1,5 @@
 global-styling:
   css:
-    component:
-      css/style.css: {}
+    base:
+      css/html.css: {}
+      css/block.css: {}
