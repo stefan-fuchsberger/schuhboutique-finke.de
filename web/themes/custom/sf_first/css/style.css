@@ -1,3 +1,11 @@
 body {
-  background-image: linear-gradient(to bottom right, white, green);
+  background-image:
+    url('../images/tribal.svg'),
+    linear-gradient(170deg, white 15%, #A183BB 50%, white 85%);
+  background-repeat: no-repeat;
+  background-position: 380px 200px, center;
+}
+
+.site-logo img {
+  width: 260px;
 }
