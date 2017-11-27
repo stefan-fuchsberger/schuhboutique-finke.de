@@ -18,3 +18,39 @@
   font-weight: bold;
   font-size: 16px;
 }
+
+#main-menu .container {
+  background: none;
+  box-shadow: none;
+}
+
+#main-menu .container ul.menu li {
+  border: none;
+}
+
+#main-menu .container ul.menu li a {
+  padding: 0px;
+  padding-left: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #575757;
+}
+
+#main-menu .container ul.menu li .is-active {
+  background: none;
+  color: #6a368c;
+}
+
+#main-menu .container ul.menu li a:hover {
+  background: none;
+  color: #6a368c;
+}
+
+#main-menu .container ul.menu li:first-child > a {
+  padding-left: 0px;
+}
+
+#main-menu .container ul.menu li.menu-item--active-trail > a {
+  background: none;
+}

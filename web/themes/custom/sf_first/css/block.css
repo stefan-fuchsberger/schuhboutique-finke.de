@@ -36,3 +36,7 @@
   font-weight: normal;
   left: -4px;
 }
+
+#header .container {
+  padding-bottom: 40px;
+}
