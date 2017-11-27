@@ -40,3 +40,21 @@
 #header .container {
   padding-bottom: 40px;
 }
+
+#main .container {
+  background: none;
+  box-shadow: none;
+}
+
+.sidebar .block-page-title-block {
+  border: none;
+  padding: 0px;
+}
+
+.sidebar .block-page-title-block img {
+  /*border-radius: 50%;*/
+}
+
+aside.sidebar-first {
+  padding-left: 0px;
+}
