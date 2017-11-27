@@ -3,3 +3,4 @@ global-styling:
     base:
       css/html.css: {}
       css/block.css: {}
+      css/menu.css: {}
