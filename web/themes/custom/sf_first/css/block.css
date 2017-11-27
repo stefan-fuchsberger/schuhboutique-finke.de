@@ -44,17 +44,47 @@
 #main .container {
   background: none;
   box-shadow: none;
+  overflow: hidden;
 }
 
 .sidebar .block-page-title-block {
   border: none;
   padding: 0px;
+  width: 350px;
+  /*overflow: hidden;*/
 }
 
 .sidebar .block-page-title-block img {
-  /*border-radius: 50%;*/
+  background-color: #eed;
+  box-shadow: 5px 5px  rgba(0,0,0,0.1);
+  -moz-box-shadow: 5px 5px  rgba(0,0,0,0.1);
+  -webkit-box-shadow: 5px 5px  rgba(0,0,0,0.1);
+  -o-box-shadow: 5px 5px  rgba(0,0,0,0.1);
+  border-radius: 50%;
+  right: 125px;
+  bottom: 90px;
+  position: relative;
 }
 
 aside.sidebar-first {
   padding-left: 0px;
+}
+
+h1.page-title {
+  background-image: linear-gradient(to right, white 70%, transparent);
+  text-align: center;
+  width: 310px;
+  top: 10px;
+  left: 100px;
+  position: relative;
+  z-index: 1;
+  color: #6a368c;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+#main .content {
+  margin-top: 100px;
 }

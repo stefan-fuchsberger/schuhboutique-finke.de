@@ -6,4 +6,7 @@ body {
     linear-gradient(170deg, white 15%, #a183bb 50%, white 85%);
   background-repeat: no-repeat;
   background-position: 380px 200px, center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
 }
