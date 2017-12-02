@@ -24,6 +24,7 @@
         "drupal/core": "~8.4",
         "drupal/devel": "^1.2",
         "drupal/image_effects": "^2.0",
+        "drupal/pathauto": "^1.0",
         "drupal/shield": "^1.1",
         "drupal/zircon": "^1.0",
         "drush/drush": "~8.0|^9.0.0-beta8",
