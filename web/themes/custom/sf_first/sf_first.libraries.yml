@@ -5,3 +5,4 @@ global-styling:
       css/block.css: {}
       css/menu.css: {}
       css/page.css: {}
+      css/responsive.css: {}

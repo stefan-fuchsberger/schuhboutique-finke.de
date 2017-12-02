@@ -1,0 +1,36 @@
+@media (max-width: 1199px) and (min-width: 992px) {
+  .contact-message-feedback-form label {
+    min-width: 175px;
+  }
+}
+
+@media (max-width: 991px) {
+  .sidebar-first {
+    display: block;
+  }
+
+  #block-kontakttitelbild img {
+    display: none;
+  }
+
+  h1.page-title {
+    top: unset;
+    left: unset;
+  }
+
+  #main .content {
+    margin-top: unset;
+  }
+
+  .contact-message-feedback-form label {
+    min-width: 198px;
+  }
+}
+
+@media (max-width: 767px) {
+  #main .contact-message-feedback-form .form-text,
+  #main .contact-message-feedback-form .form-email {
+    min-width: 230px;
+    width: unset;
+  }
+}
