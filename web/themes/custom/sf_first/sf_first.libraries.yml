@@ -4,3 +4,4 @@ global-styling:
       css/html.css: {}
       css/block.css: {}
       css/menu.css: {}
+      css/page.css: {}

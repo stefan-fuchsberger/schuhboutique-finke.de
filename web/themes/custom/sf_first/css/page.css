@@ -1,0 +1,15 @@
+.form-actions .form-submit {
+  background-color: #6a368c;
+}
+
+.form-actions .form-submit:hover, .form-actions .form-submit:focus {
+  background-color: #575757;
+}
+
+.contact-message-feedback-form label {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #575757;
+  min-width: 165px;
+}
