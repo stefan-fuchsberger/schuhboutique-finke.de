@@ -47,14 +47,14 @@
   overflow: hidden;
 }
 
-.sidebar .block-page-title-block {
+.sidebar .block-page-title-block, .sidebar #block-kontakttitelbild {
   border: none;
   padding: 0px;
   width: 350px;
   /*overflow: hidden;*/
 }
 
-.sidebar .block-page-title-block img {
+.sidebar .block-page-title-block img, .sidebar #block-kontakttitelbild img {
   background-color: #eed;
   box-shadow: 5px 5px  rgba(0,0,0,0.1);
   -moz-box-shadow: 5px 5px  rgba(0,0,0,0.1);
