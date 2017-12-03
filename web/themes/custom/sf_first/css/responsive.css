@@ -34,3 +34,23 @@
     width: unset;
   }
 }
+
+@media (max-width: 565px) {
+  #header nav {
+    float: left;
+  }
+
+  #header ul.menu {
+    margin-left: 0px;
+  }
+
+  #header ul.menu li:first-child {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  #header .block-system-branding-block {
+    margin-bottom: 0px;
+  }
+}

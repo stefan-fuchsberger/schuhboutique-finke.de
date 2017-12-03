@@ -58,3 +58,7 @@
 #main-menu .container ul.menu li.menu-item--active-trail > a {
   background: none;
 }
+
+.navbar-toggle {
+  display: none;
+}
