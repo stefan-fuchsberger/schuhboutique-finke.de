@@ -1,0 +1,8 @@
+global-styling:
+  css:
+    base:
+      css/html.css: {}
+      css/block.css: {}
+      css/menu.css: {}
+      css/page.css: {}
+      css/responsive.css: {}

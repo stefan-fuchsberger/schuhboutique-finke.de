@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin-ext');
+
+html {
+  background-color: white;;
+}
+
+body {
+  background-color: white;
+  background-image: linear-gradient(170deg, white 15%, #a183bb 50%, white 85%);
+  background-repeat: no-repeat;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #575757;
+}
