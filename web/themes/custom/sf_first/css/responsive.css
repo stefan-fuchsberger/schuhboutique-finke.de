@@ -5,6 +5,14 @@
 }
 
 @media (max-width: 991px) {
+  body {
+    background-image: linear-gradient(145deg, white 15%, #a183bb 50%, white 85%);
+  }
+
+  div.page > section#main {
+    background-size: contain;
+  }
+
   .sidebar-first {
     display: block;
   }
@@ -36,6 +44,10 @@
 }
 
 @media (max-width: 565px) {
+  body {
+    background-image: linear-gradient(120deg, white 15%, #a183bb 50%, white 85%);
+  }
+
   #header nav {
     float: left;
   }

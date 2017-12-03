@@ -13,3 +13,10 @@
   color: #575757;
   min-width: 165px;
 }
+
+div.page > section#main {
+  background-image: url('../images/tribal.svg');
+  background-repeat: no-repeat;
+  background-position: right 20% top;
+  /*background-size: cover;*/
+}
