@@ -30,3 +30,7 @@ function sf_first_preprocess_page_title(&$variables) {
     }
   }
 }
+
+function sf_first_form_contact_message_feedback_form_alter(&$form, $form_state, $form_id) {
+  $form['actions']['preview']['#access'] = FALSE;
+}

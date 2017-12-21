@@ -13,3 +13,15 @@ body {
   font-size: 18px;
   color: #575757;
 }
+
+a {
+  color: #6a368c;
+}
+
+a:hover {
+  color: #6a368c;
+}
+
+a:active {
+  color: #6a368c;
+}

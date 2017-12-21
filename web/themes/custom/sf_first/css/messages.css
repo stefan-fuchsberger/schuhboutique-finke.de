@@ -1,0 +1,7 @@
+.region-content .messages--status {
+  background-color: #fff;
+  box-shadow: -8px 0 0 #6a368c;
+  border-color: #6a368c #6a368c #6a368c transparent;
+  background-image: url(../images/check.svg);
+  color: #575757;
+}
