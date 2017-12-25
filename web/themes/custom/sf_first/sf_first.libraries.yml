@@ -6,3 +6,4 @@ global-styling:
       css/menu.css: {}
       css/page.css: {}
       css/responsive.css: {}
+      css/messages.css: {}
