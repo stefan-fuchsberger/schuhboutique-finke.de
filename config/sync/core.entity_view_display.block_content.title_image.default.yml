@@ -1,0 +1,26 @@
+uuid: 6a965590-adb1-4a67-bd83-136eb3f2260c
+langcode: de
+status: true
+dependencies:
+  config:
+    - block_content.type.title_image
+    - field.field.block_content.title_image.field_title_image
+    - image.style.page_title
+  module:
+    - image
+id: block_content.title_image.default
+targetEntityType: block_content
+bundle: title_image
+mode: default
+content:
+  field_title_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: page_title
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true

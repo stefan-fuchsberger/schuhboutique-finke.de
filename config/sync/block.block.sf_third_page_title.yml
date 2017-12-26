@@ -1,0 +1,20 @@
+uuid: 3ebcb332-1ac4-4848-8aee-06076b3b0df6
+langcode: de
+status: true
+dependencies:
+  theme:
+    - sf_third
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: sf_third_page_title
+theme: sf_third
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: Seitentitel
+  provider: core
+  label_display: '0'
+visibility: {  }

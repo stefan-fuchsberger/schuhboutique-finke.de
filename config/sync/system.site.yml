@@ -1,0 +1,15 @@
+uuid: f2c4ebd0-529a-4dec-9e64-4738e991d298
+name: 'Schuhboutique Doris Finke'
+mail: info@schuhboutique-finke.de
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+langcode: de
+default_langcode: de
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+mail_notification: info@schuhboutique-finke.de

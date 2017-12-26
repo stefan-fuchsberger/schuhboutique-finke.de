@@ -1,0 +1,20 @@
+uuid: 5bb4b5c5-0f85-4588-bb02-a8dda9a6793d
+langcode: de
+status: true
+dependencies:
+  theme:
+    - sf_third
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: sf_third_local_actions
+theme: sf_third
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primäre Admin-Aktionen'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 965cce3b-8aac-4be2-884f-a424d2847040
+langcode: de
+status: true
+dependencies:
+  theme:
+    - sf_second
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: sf_second_page_title
+theme: sf_second
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: Seitentitel
+  provider: core
+  label_display: '0'
+visibility: {  }
