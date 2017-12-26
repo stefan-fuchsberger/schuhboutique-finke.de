@@ -1,0 +1,8 @@
+uuid: 6af12289-6fd3-4ab4-af13-79dfdb2ecf78
+langcode: de
+status: true
+dependencies: {  }
+id: metanavigation
+label: Metanavigation
+description: 'Menü für globale Informationen wie z.B. Impressum'
+locked: false

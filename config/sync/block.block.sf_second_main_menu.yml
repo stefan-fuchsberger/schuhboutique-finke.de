@@ -1,0 +1,26 @@
+uuid: 093f0b43-0566-4c4f-912d-d864b5ed0a83
+langcode: de
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - sf_second
+_core:
+  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
+id: sf_second_main_menu
+theme: sf_second
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: Hauptnavigation
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

@@ -1,0 +1,13 @@
+uuid: d6af2f64-5883-4127-b48e-678b5bdb4da8
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Persönliches Kontaktformular'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Vielen Dank für Ihre Nachricht. Wir werden uns so schnell wie möglich bei Ihnen melden.'
+redirect: ''
