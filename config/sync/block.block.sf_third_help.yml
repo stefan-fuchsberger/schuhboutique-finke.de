@@ -1,0 +1,22 @@
+uuid: 12e7f605-b6fd-4834-bc29-3981da01997e
+langcode: de
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - sf_third
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: sf_third_help
+theme: sf_third
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Hilfe
+  provider: help
+  label_display: '0'
+visibility: {  }
