@@ -122,6 +122,10 @@ AddEncoding gzip svgz
   # uncomment the following line:
   RewriteBase /
 
+  RewriteCond %{HTTPS} !=on [NC,OR]
+  RewriteCond %{HTTP_HOST} !^(www|drupal|release)\.schuhboutique-finke\.de$ [NC]
+  RewriteRule ^(.*)$ https://www.schuhboutique-finke.de/$1 [R=301,L]
+
   # Redirect common PHP files to their new locations.
   RewriteCond %{REQUEST_URI} ^(.*)?/(install.php) [OR]
   RewriteCond %{REQUEST_URI} ^(.*)?/(rebuild.php)
