@@ -25,3 +25,10 @@ a:hover {
 a:active {
   color: #6a368c;
 }
+
+h2 {
+  font-size: 32px;
+  color: #775696;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
