@@ -1,7 +1,0 @@
-name: SF Third
-type: theme
-base theme: classy
-description: 'Third sf_project Drupal theme'
-core: 8.x
-libraries:
-  - sf_third/global-styling

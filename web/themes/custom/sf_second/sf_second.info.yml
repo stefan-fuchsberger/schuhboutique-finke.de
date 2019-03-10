@@ -1,7 +1,0 @@
-name: SF Second
-type: theme
-base theme: bartik
-description: 'Second sf_project Drupal theme'
-core: 8.x
-libraries:
-  - sf_second/global-styling
