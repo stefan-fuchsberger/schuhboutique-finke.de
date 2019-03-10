@@ -120,8 +120,13 @@ AddEncoding gzip svgz
   #
   # If your site is running in a VirtualDocumentRoot at http://example.com/,
   # uncomment the following line:
-  # RewriteBase /
+  RewriteBase /
 
+  RewriteCond %{HTTPS} !=on [NC,OR]
+  RewriteCond %{HTTP_HOST} !^(www|drupal|release)\.schuhboutique-finke\.de$ [NC]
+  RewriteCond %{HTTP_HOST} !^.+\.dev\.mrmf\.de$ [NC]
+  RewriteRule ^(.*)$ https://www.schuhboutique-finke.de/$1 [R=301,L]
+  
   # Redirect common PHP files to their new locations.
   RewriteCond %{REQUEST_URI} ^(.*)?/(install.php) [OR]
   RewriteCond %{REQUEST_URI} ^(.*)?/(rebuild.php)
