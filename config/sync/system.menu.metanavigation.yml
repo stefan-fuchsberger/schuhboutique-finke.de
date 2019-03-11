@@ -1,0 +1,8 @@
+uuid: 75db8aac-e5e9-42a3-b496-1e629510b59c
+langcode: de
+status: true
+dependencies: {  }
+id: metanavigation
+label: Metanavigation
+description: ''
+locked: false

@@ -1,0 +1,22 @@
+uuid: ae84f236-1ba0-4935-a9dc-632b7f0e0328
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sf_first
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: sf_first_messages
+theme: sf_first
+region: header
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

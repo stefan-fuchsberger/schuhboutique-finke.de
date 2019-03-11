@@ -1,0 +1,22 @@
+uuid: 639d1c48-91fc-4ce8-aa5c-c067c02fe25e
+langcode: de
+status: true
+dependencies:
+  theme:
+    - sf_first
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: sf_first_local_tasks
+theme: sf_first
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

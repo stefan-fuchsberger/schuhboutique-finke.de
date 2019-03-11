@@ -1,0 +1,22 @@
+uuid: 6b01bf72-133d-4545-bf2f-ab3500e320c4
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sf_first
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: sf_first_powered
+theme: sf_first
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

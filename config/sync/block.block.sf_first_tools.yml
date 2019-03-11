@@ -1,0 +1,26 @@
+uuid: 83fabefe-e199-48c0-a7d7-2547019ebd06
+langcode: de
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - sf_first
+_core:
+  default_config_hash: f3Dd5TnUiFDjFZp9yEGJInwt6cUzs7O6SvLTFTATSlU
+id: sf_first_tools
+theme: sf_first
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

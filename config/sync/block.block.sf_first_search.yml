@@ -1,0 +1,22 @@
+uuid: bc6d26ef-8aeb-488d-8c7f-a58a35fb6ac4
+langcode: de
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - sf_first
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: sf_first_search
+theme: sf_first
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }
