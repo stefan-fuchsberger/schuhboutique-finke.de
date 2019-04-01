@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin-ext');
+
+body {
+    /*background-color: white;*/
+    background-image: linear-gradient(170deg, white 15%, #a183bb 50%, white 85%);
+    background-repeat: no-repeat;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #575757;
+}
+
+.region-header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+.region-header ul {
+    margin-right: 3px;
+    list-style: none outside;
+    margin-left: 1em;
+    padding: 0;
+    text-align: left;
+}
+
+.region-header li {
+    float: left;
+    margin-left: 20px;
+}
+
+.region-header ul a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #6a368c;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0;
+}
