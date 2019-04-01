@@ -1,0 +1,15 @@
+uuid: fc72e3bd-c80e-409f-9bdc-17225ae35615
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: s6qJnINiq7zI-ZoQOXM_gtiDpIsHT3fm7RySP1F_BE0
+id: file
+label: Datei
+description: 'Lokale Dateien für wiederverwendbare Medien verwenden.'
+source: file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_file
+field_map: {  }

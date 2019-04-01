@@ -4,10 +4,10 @@ body {
     /*background-color: white;*/
     background-image: linear-gradient(170deg, white 15%, #a183bb 50%, white 85%);
     background-repeat: no-repeat;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    color: #575757;
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+    /*font-weight: bold;*/
+    /*font-size: 18px;*/
+    /*color: #575757;*/
 }
 
 .region-header nav {
