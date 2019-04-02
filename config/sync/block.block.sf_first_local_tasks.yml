@@ -9,7 +9,7 @@ _core:
 id: sf_first_local_tasks
 theme: sf_first
 region: header
-weight: -2
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:

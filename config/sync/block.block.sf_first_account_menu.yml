@@ -1,6 +1,6 @@
 uuid: bca08074-133b-401c-8912-317f6a1ebc25
 langcode: de
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -13,7 +13,7 @@ _core:
 id: sf_first_account_menu
 theme: sf_first
 region: sidebar_first
-weight: 11
+weight: -5
 provider: null
 plugin: 'system_menu_block:account'
 settings:

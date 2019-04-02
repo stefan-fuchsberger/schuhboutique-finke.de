@@ -10,7 +10,7 @@ dependencies:
     - sf_first
 id: metanavigation
 theme: sf_first
-region: header
+region: navigation
 weight: -5
 provider: null
 plugin: 'system_menu_block:metanavigation'

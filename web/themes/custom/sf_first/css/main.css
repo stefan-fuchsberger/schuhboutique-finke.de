@@ -10,12 +10,23 @@ body {
     /*color: #575757;*/
 }
 
-.region-header nav {
+header.navbar {
+    background-color: transparent;
+    border-color: transparent;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-header {
+    width: 100%;
+}
+
+#block-metanavigation {
     float: right;
     margin-top: 50px;
 }
 
-.region-header ul {
+#block-metanavigation > ul {
     margin-right: 3px;
     list-style: none outside;
     margin-left: 1em;
@@ -23,17 +34,27 @@ body {
     text-align: left;
 }
 
-.region-header li {
+#block-metanavigation li {
     float: left;
     margin-left: 20px;
 }
 
-.region-header ul a {
+#block-metanavigation a {
     font-family: 'Open Sans Condensed', sans-serif;
     color: #6a368c;
     font-weight: bold;
     font-size: 16px;
     padding: 0;
+}
+
+#block-sf-first-main-menu a {
+    padding: 0;
+    padding-right: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #6a368c;
+    text-transform: uppercase;
 }
 
 .nav > li > a:hover {

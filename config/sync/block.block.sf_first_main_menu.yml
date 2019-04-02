@@ -12,8 +12,8 @@ _core:
   default_config_hash: GT_zYl7I9VAILH8OxMRe-VDvFadCDHxRcnmBc5xEmf0
 id: sf_first_main_menu
 theme: sf_first
-region: sidebar_first
-weight: 10
+region: header
+weight: -6
 provider: null
 plugin: 'system_menu_block:main'
 settings:
