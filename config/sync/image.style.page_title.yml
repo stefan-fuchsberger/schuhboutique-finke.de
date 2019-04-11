@@ -1,0 +1,15 @@
+uuid: ad0192e2-ef04-47c7-964c-29190536bc68
+langcode: de
+status: true
+dependencies: {  }
+name: page_title
+label: Titelbild
+effects:
+  bf29e678-4b92-4319-a9f8-fb6e0e6da9de:
+    uuid: bf29e678-4b92-4319-a9f8-fb6e0e6da9de
+    id: image_scale
+    weight: 1
+    data:
+      width: 350
+      height: 350
+      upscale: false

@@ -60,3 +60,20 @@ header.navbar {
 .nav > li > a:hover {
     background-color: transparent;
 }
+
+.content {
+    overflow: hidden;
+}
+
+.field--name-field-title-image img {
+    background-color: #eed;
+    box-shadow: 5px 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 5px 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 5px 5px rgba(0,0,0,0.1);
+    -o-box-shadow: 5px 5px rgba(0,0,0,0.1);
+    border-radius: 50%;
+    right: 126px;
+    bottom: -15px;
+    position: relative;
+    float: left;
+}
