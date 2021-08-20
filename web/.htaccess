@@ -123,7 +123,7 @@ AddEncoding gzip svgz
   RewriteBase /
 
   RewriteCond %{HTTPS} !=on [NC,OR]
-  RewriteCond %{HTTP_HOST} !^(www|drupal|release)\.schuhboutique-finke\.de$ [NC]
+  RewriteCond %{HTTP_HOST} !^(www|drupal|release|local)\.schuhboutique-finke\.de$ [NC]
   RewriteRule ^(.*)$ https://www.schuhboutique-finke.de/$1 [R=301,L]
 
   # Redirect common PHP files to their new locations.
