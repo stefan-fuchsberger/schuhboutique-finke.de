@@ -21,7 +21,7 @@
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/admin_toolbar": "^1.21",
         "drupal/console": "^1.9",
-        "drupal/core": "8.7.14",
+        "drupal/core": "8.8.11",
         "drupal/devel": "^1.2",
         "drupal/image_effects": "^2.0",
         "drupal/metatag": "^1.3",
